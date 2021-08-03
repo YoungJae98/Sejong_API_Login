@@ -29,7 +29,7 @@ app.post("/login", (req, res) => {
     if (err) throw err;
 
     console.log("results : ", results);
-    res.send(results);
+    res.send(results.data);
   });
 });
 
